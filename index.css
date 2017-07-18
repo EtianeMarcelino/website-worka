@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+header{
+	background-color: inherit;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center; 
+	position: absolute;
+	z-index: 3;	
+	margin-left: 50px;
+}
+
+header img{
+	width: 100px;
+	height: 30px;
+}
+header nav a{
+	padding: 15px;
+	text-decoration: none;
+	font-size: 10px;
+	color: white;
+}
+
+nav{ margin-right: 100px; }
+
+#corpo{
+	width: 100%;
+	height: 100%;
+}
+section{
+	height: 800px;
+	background-color: #0099cb;
+	display: inline-block;
+	position: relative;
+}
+.seccao1{
+	width: 50%;
+	float: left;
+}
+.seccao2{
+	width: 50%;
+	background-image: url("LANDING-BACK.jpg");
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#corpo_seccao{
+	margin: 200px 100px;
+	color: white;
+}
+
+#corpo_seccao h2{
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-family: arial;
+}
+#corpo_seccao p{
+	margin-bottom: 15px;
+	text-align: justify;
+}
+#corpo_seccao a{
+	margin: 10px;
+	font-size: 10px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	background-color: #003466;
+	border-radius: 3px;
+}
+#corpo_seccao h5{
+	margin-top: 300px;
+	font-size: 9px;
+	font-weight: normal;
+}

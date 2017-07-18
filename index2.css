@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: arial;
+}
+
+header div{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	background-color: ;
+}
+header a{
+	text-decoration: none;
+	color: #ddd;
+	font-weight: normal;
+	font-size: 15px;
+	margin-left: 50px;
+}
+header .link_id{
+	padding: 5px;
+	background-color: #0099cb;
+	font-size: 10px;
+	float: right;
+	margin-right: 50px;
+	border-radius: 3px;
+}
+
+
+
+main{
+	height: 65vh;
+	width: 100vw;
+	background-image: url("LANDING-BACK.jpg");
+	background-size: 100% 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.corpo{
+	margin: 200px 220px;
+	color: #fff;
+}
+.corpo h1{ font-weight: normal; margin-bottom: 10px; }
+.corpo p{ margin-bottom: 10px; }
+.corpo a{
+	margin: 5px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #0099cb;
+	text-decoration: none;
+	color: #fff;
+	font-size: 9px;
+}
+
+footer div{
+	margin: 20px 220px;
+}
+footer div h2{
+	color: #0099cb;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+footer div p{ margin: 3px 0px; }
